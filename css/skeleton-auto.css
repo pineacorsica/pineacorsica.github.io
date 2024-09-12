@@ -101,12 +101,12 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
   font-weight: 800;
 }
 h1 {
   font-size: 24px;
-  line-height: 64px;
+  line-height: 40px;
   letter-spacing: 0;
 }
 
@@ -114,12 +114,20 @@ h1 {
 @media (min-width: 550px) {
   h1 {
     font-size: 48px;
-    line-height: 96px;
+    margin-bottom: 1em;
   }
+}
+
+h2 {
+  margin-top: 2.5rem;
 }
 
 p {
   margin-top: 0;
+}
+
+p.indent {
+  margin-left: 1rem;
 }
 
 /* Links
@@ -187,6 +195,10 @@ ol {
   margin-bottom: 2.5rem;
 }
 
+.text > p{
+  margin-bottom: 1rem;
+}
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
@@ -218,11 +230,9 @@ hr {
 50% (default): True circle
 */
 .avatar {
-  width: 128px;
   height: 128px;
   object-fit: cover;
   background-position: center;
-  border-radius: 50%;
 }
 
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
