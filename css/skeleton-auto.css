@@ -150,8 +150,7 @@ a {
 }
 a:hover {
   color: #083BDA; 
-}
-a:focus {
+}a:focus {
   outline: #7AB8FF solid 2px;
   border-radius: 2px;
 }         
